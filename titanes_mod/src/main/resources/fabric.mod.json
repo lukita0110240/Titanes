@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "titanes",
+  "version": "${version}",
+  "name": "Titanes",
+  "description": "Añade el disco musical Titanes con una canción personalizada.",
+  "authors": ["Luka"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.luka.titanes.TitanesMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.4-snapshot-7",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

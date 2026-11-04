@@ -1,0 +1,7 @@
+{
+  "titanes": {
+    "sounds": [
+      { "name": "titanes:titanes", "stream": true }
+    ]
+  }
+}

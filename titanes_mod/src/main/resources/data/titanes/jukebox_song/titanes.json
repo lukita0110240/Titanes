@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "titanes:titanes"
+  },
+  "description": {
+    "translate": "item.titanes.titanes_disc.desc"
+  },
+  "length_in_seconds": 999.56,
+  "comparator_output": 15
+}

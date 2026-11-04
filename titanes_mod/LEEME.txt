@@ -1,0 +1,25 @@
+TITANES — proyecto Fabric para Minecraft Java 26.4 Snapshot 7
+
+Contenido:
+- Nuevo objeto: titanes:titanes_disc
+- Canción de jukebox: titanes:titanes
+- Audio OGG incluido en assets/titanes/sounds/titanes.ogg
+- Duración configurada: 999.56 segundos (extraída del archivo de audio)
+
+REQUISITOS:
+- Java 25
+- SKLauncher con una instalación Fabric para Minecraft 26.4 Snapshot 7
+- Fabric API 0.165.4+26.4
+- Gradle (el wrapper se puede generar con `gradle wrapper` si no se incluye)
+
+COMPILAR:
+1. Abre una terminal dentro de la carpeta Titanes.
+2. Ejecuta: gradle build
+3. El archivo JAR debería aparecer en build/libs/.
+4. Copia ese JAR a la carpeta mods de la instancia Fabric de SKLauncher.
+
+COMANDO DE PRUEBA:
+/give @s titanes:titanes_disc
+
+IMPORTANTE:
+Este paquete contiene el proyecto fuente, no un JAR compilado. La API y los nombres de clases pueden requerir ajustes si cambian entre snapshots. Debe compilarse y probarse en la instalación indicada antes de usarlo en un mundo importante.
